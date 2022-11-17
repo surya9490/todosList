@@ -1,0 +1,261 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .item-container {
+    background-color: #4c63b6;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+.all-items-container {
+  display: flex;
+  float: row;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .all-items-container {
+    flex-direction: row;
+  }
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .checkbox-input {
+    width: 15px;
+    height: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+}
+
+.task-button-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #4c63b6;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 8px;
+  border-left: 8px solid #454f84;
+}
+
+@media screen and (max-width: 576px) {
+  .task-button-container {
+    border-left: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+  }
+}
+
+.task {
+  width: 70%;
+  color: white;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .task {
+    display: none;
+  }
+}
+
+.task-sm-container {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .task-sm-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .task-sm {
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto';
+    margin-bottom: 3px;
+  }
+}
+
+.task-button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .task-button {
+    margin-left: 5px;
+  }
+}
+
+.edit-icon {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .edit-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .delete-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.confirm-delete {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  color: #4c63b6;
+  border: none;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .confirm-delete {
+    margin-left: 10px;
+    height: 20px;
+    width: 60px;
+  }
+}
+
+.done {
+  height: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #4c63b6;
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 8px solid #454f84;
+}
+
+@media screen and (max-width: 576px) {
+  .edit-container {
+    border-left: 0px;
+  }
+}
+
+.edit {
+  width: 61vw;
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+.save-button {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  color: #454f84;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 576px) {
+  .save-button {
+    height: 20px;
+    width: 50px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+
+.edit-delete-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shuffle-username {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #4c63b6;
+}
+
+shuffle-username-subpart {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #0275d8;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  .edit-delete-container {
+    flex-direction: row;
+    justify-content: start;
+    order: 1;
+  }
+  .done {
+    color: greenyellow;
+  }
+
+  .shuffle-username {
+    order: 0;
+    margin-left: 5px;
+    font-family: 'Roboto';
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
+
+.hideButton {
+  display: none;
+}
+
+.showButton {
+  display: block;
+}

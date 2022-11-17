@@ -1,0 +1,52 @@
+.status-button {
+  margin-left: 32px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  font-family: 'Roboto';
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 576px) {
+  .filter-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .status-button {
+    font-size: 10px;
+    padding: 8px;
+    color: #5763a5;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+.selectedButton {
+  margin-left: 32px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  color: #5763a5;
+  border: 2px solid #5763a5;
+}
+
+@media screen and (max-width: 576px) {
+  .selectedButton {
+    font-size: 10px;
+    padding: 8px;
+    color: #5763a5;
+    border: 2px solid #5763a5;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+}

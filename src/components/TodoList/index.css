@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #c3caea;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #9ba9eb;
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .header-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+  }
+}
+.user {
+  font-size: 30px;
+  color: #5763a5;
+}
+
+@media screen and (max-width: 576px) {
+  .user {
+    font-size: 20px;
+    width: 50px;
+  }
+}
+.heading {
+  font-size: 40px;
+  color: #5763a5;
+  font-weight: 700;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-weight: 800;
+  }
+}
+
+.logout-button {
+  color: white;
+  background-color: #5763a5;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .logout-button {
+    font-size: 14px;
+    width: 60px;
+    height: 30px;
+  }
+}
+
+.input-container {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 30px;
+}
+@media screen and (max-width: 576px) {
+  .input-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+  }
+}
+
+.create-task-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #5763a5;
+}
+@media screen and (max-width: 576px) {
+  .create-task-heading {
+    font-size: 25px;
+  }
+}
+
+.create-task-heading-subpart {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .create-task-heading-subpart {
+    font-size: 25px;
+  }
+}
+.todo-user-input {
+  background-color: #c3caea;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #5763a5;
+  border-radius: 10px;
+  margin-top: 11px;
+  padding: 18px;
+}
+@media screen and (max-width: 576px) {
+  .todo-user-input {
+    width: 90%;
+    padding: 12px;
+  }
+}
+
+.add-button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100px;
+  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .add-button {
+    font-size: 15px;
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+  }
+}
+
+.todos-items-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+@media screen and (max-width: 576px) {
+}
